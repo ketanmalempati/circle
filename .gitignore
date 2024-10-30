@@ -167,3 +167,4 @@ cython_debug/
 set_google_env.sh
 creds.json
 examplestateAfterProvision.tfstate
+envVars.sh

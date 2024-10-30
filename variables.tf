@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "The ID of the Google Cloud project"
   type        = string
-  default     = "circle-429006"
+  default     = "circledeployment"
 }
 
 variable "region" {
@@ -25,7 +25,7 @@ variable "repository_id" {
 variable "service_account_email" {
   description = "Email of the service account to be used"
   type        = string
-  default     = "circle-service@circle-429006.iam.gserviceaccount.com"
+  default     = "cloud-deployment-demo@circledeployment.iam.gserviceaccount.com"
 }
 
 variable "image_tag" {
