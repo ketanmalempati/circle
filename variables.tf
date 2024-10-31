@@ -37,6 +37,7 @@ variable "image_tag" {
 variable "MONGO_URI" {
   description = "MongoDB URI for the application"
   type        = string
+  default     = "mongodb+srv://ketanm:mongodb@circle-sjsu.8hkcq.mongodb.net/?retryWrites=true&w=majority&appName=circle-sjsu"
 }
 
 variable "GOOGLE_TYPE" {
