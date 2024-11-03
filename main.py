@@ -178,7 +178,7 @@ def upload_file():
     file.save(file_path)
 
     credentials = get_google_credentials_from_env()
-    print(f"---------------------{credentials}\n\n\n")
+    print(f"--------------------{credentials}\n\n\n")
 
     creds = ServiceAccountCredentials.from_json_keyfile_dict(credentials, scope)
     # creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json",scope)
