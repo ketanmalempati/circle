@@ -2,7 +2,7 @@ import db
 from db import insert_training_model,update_model_record, return_training_models
 import json
 from flask import Flask, request, render_template, redirect, session, jsonify, url_for
-# from flask_cors import CORS
+# from flask_cors import CORS #
 import re
 import os
 import secrets
