@@ -1,6 +1,6 @@
 # Circle Explainable AI application
 
-## Intrduction
+## Introduction
 
 This is an application that aims to educate users about the most influential factors in a dataset when it is trained to predict a certain variable's outcome. 
 It allows users to understand what the machine learning model believes to be the most affecting factors in a given dataset.
